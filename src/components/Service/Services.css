@@ -1,0 +1,108 @@
+.services {
+  padding: 60px 20px;
+  background-color: #f7fafc;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.services-intro {
+  margin-bottom: 30px;
+}
+
+.services-description {
+  font-size: 2.5rem;
+  color: #777; 
+  font-weight: 400;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px; /* Space for the button */
+}
+
+.service-card {
+  background: linear-gradient(135deg, #ffffff 0%, #e3e3e3 100%); 
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ddd; 
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.service-card-title {
+  font-size: 1.5rem;
+  margin-left: 1px;
+  margin-bottom: 15px;
+  color: #333; 
+  font-weight: 600;
+}
+
+.service-card-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Styling for the call to action button */
+.cta-btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Creative Button */
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #28a745, #218838); /* Gradient background */
+  color: white;
+  border: none;
+  border-radius: 50px;  /* Rounded corners */
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  position: relative;
+}
+
+.cta-btn:hover {
+  transform: scale(1.1); /* Slight scale effect */
+  background-color: #1e7e34; /* Darker shade on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:before {
+  /* content: '→';   */
+  font-size: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cta-btn:hover:before {
+  transform: translateX(5px); /* Move the icon slightly when hovered */
+}
+
+.cta-btn span {
+  transition: transform 0.3s ease;
+}
+
+.cta-btn:hover span {
+  transform: translateX(10px); /* Move text slightly when hovered */
+}

@@ -1,0 +1,56 @@
+nav {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    transition: all 0.3s ease; /* Smooth transitions for any future changes */
+    box-shadow: none; /* No shadow */
+    top: 0;
+    z-index: 1000; /* Keep it on top */
+         
+}
+
+.logo {
+    width: 160px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-top: 15px;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.white-text {
+    color: white;  /* White text for front page */
+    
+}
+
+.black-text {
+    color: black;  /* Black text for other pages */
+}
+
+.dark-nav {
+    background-color: #ffffff !important; /* Fully opaque white background with priority */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    color: black !important; /* Ensure text color is black */
+    transition: all 0.3s ease; /* Smooth transition for style changes */
+}
+

@@ -1,0 +1,101 @@
+/* src/pages/AboutUs.css */
+.about-us {
+  padding: 60px 20px;
+  background-color: #f7fafc;
+  text-align: center;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-us-intro {
+  margin-bottom: 30px;
+}
+
+.about-us-description {
+  font-size: 2.5rem;
+  color: #777; 
+  font-weight: 400;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f7fafc;
+  padding: 2rem;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  gap: 1rem;
+}
+
+.align-left .image {
+  grid-column: 1; /* Image on the left */
+}
+
+.align-left .text-overlay {
+  grid-column: 2; /* Text on the right */
+  
+}
+
+.align-right .image {
+  grid-column: 2; /* Image on the right */
+}
+
+.align-right .text-overlay {
+  grid-column: 1; /* Text on the left */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.text-overlay {
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.text-overlay h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.text-overlay p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .section {
+    grid-template-columns: 1fr; /* Stack image and text vertically on mobile */
+  }
+
+  .image, .text-overlay {
+    width: 100%;
+  }
+
+  .text-overlay {
+    padding: 1rem;
+    text-align: center;
+  }
+}

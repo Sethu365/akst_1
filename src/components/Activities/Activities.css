@@ -1,0 +1,105 @@
+/* Overall activities container */
+.activities {
+    padding: 60px 20px;
+    background-color: #f7fafc;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Title for activities */
+  .activities-title {
+    font-size: 2.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  /* Description of activities */
+  .activities-description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+  
+  /* Main container for each activity card */
+  .activities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  
+  /* Activity card styles */
+  .activity-card {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e3e3 100%); 
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 475px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;'
+    
+    
+  }
+  
+  /* Hover effect for activity cards */
+  .activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title for each activity */
+  .activity-title {
+    font-size: 1.6rem;
+    color: #0073e6;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* Removed icon-related styles */
+  }
+  
+  /* Details list for each activity */
+  .activity-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #555;
+  }
+  
+  .activity-details li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  /* Icon bullet points (removed icon) */
+  .activity-details li::before {
+    content: '•';
+    color: #0073e6;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
+  .si{
+    
+    margin-right: 6px;
+    color: #0b4eab;
+
+  }
+   
+  .sii{
+    margin-left: 35px;
+    margin-right: 6px;
+    color: #0b4eab;
+
+  }

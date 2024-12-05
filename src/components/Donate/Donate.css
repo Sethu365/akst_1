@@ -1,0 +1,26 @@
+
+.donate-now-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+}
+
+.donate-now-container p {
+    font-size: 16px;
+}
+
+.qr-code-container img {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .support{
+    font-size: 2.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  } */

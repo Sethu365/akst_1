@@ -1,0 +1,144 @@
+.programs {
+    padding: 60px 20px;
+    background-color: #f7fafc;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+
+  .programs-title {
+    font-size: 2.8rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .programs-description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+
+  .programs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 15px;
+    
+  }
+
+  .programs-category {
+    background: linear-gradient(135deg, #ffffff 0%, #e3e3e3 100%); 
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd; 
+    text-align: left;
+  }
+
+  .programs-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .category-title {
+    font-size: 1.6rem;
+    color: #0073e6;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+ 
+  .programs-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #555;
+  }
+  
+  .programs-details li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+ 
+  .programs-details li::before {
+    content: '•';
+    color: #0073e6;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
+  
+  .facilities {
+    margin-top: 50px;
+    background-color: #eef3f9;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .facilities-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .facilities-list {
+    list-style: none;
+    padding: 0;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .facilities-list li {
+    margin-bottom: 10px;
+  }
+  
+  .support-request {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f2f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .support-title {
+    font-size: 1.8rem;
+    color: #c44;
+    margin-bottom: 15px;
+  }
+  
+  .support-text {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .di{
+    margin-left: 80px;
+    margin-right: 8px;
+    color: #0b4eab;
+  }
+
+  .dii{
+    
+    margin-right: 6px;
+    color: #0b4eab;
+
+  }
+
+  .diii{
+    margin-left: 69px;
+    margin-right: 8px;
+    color: #0b4eab;
+
+  }
