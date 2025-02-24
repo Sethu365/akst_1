@@ -17,10 +17,10 @@ const Services = () => {
         />
         <ServiceCard
           title="Vocational & Skill Development"
-          description="We offer vocational training in areas such as computer skills, spoken English, and job readiness for women, youth, and disabled individuals. These programs empower participants with the skills needed to secure employment or start their own businesses."
+          description="We offer vocational training in areas such as digital skills, spoken English, and job readiness for women, youth, and disabled individuals. These programs empower participants with the skills needed to secure employment or start their own businesses."
         />
         <ServiceCard
-          title="Senior Citizen Care"
+          title="Day care - Senior Citizen"
           description="We provide shelter, care, and support for elderly individuals in a safe, peaceful environment. Our homes are designed to meet the emotional, physical, and healthcare needs of senior citizens."
         />
       </div>

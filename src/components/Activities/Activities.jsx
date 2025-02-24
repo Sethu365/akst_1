@@ -7,7 +7,7 @@ const Activities = () => {
     <section id="activities" className="activities">
       <h2 className="activities-title">Activities of Asha Kirana Seva Trust (AKST)</h2>
       <p className="activities-description">
-        Asha Kirana Seva Trust (AKST) is a Secular Non-Profit Voluntary Organization established in 1995. For the past 18 years, AKST has been working in various sectors such as Health, Education, Disabled Welfare, Women & Child Care, Senior Citizen Care, Environmental Programs, and Rural Development.
+        Asha Kirana Seva Trust (AKST) is a Secular Non-Profit Voluntary Organization established in 1995. For the past 30 years, AKST has been working in various sectors such as Health, Education, Disabled Welfare, Women & Child Care, Senior Citizen Care, Environmental Programs, Agricultural and Rural Development.
       </p>
 
       <div className="activities-list">
@@ -28,10 +28,13 @@ const Activities = () => {
 
         <ActivityCard title={<><i class="si bi-tree"></i>Agriculture & Environment</>}
          details={[
-          "Sustainable Agriculture.",
+          "Sustainable organic Agriculture.",
           "Soil and water conservation.",
           "Indigenous pest control management.",
-          "Raising kitchen gardens to herbal medicinal plants."
+          "Raising kitchen gardens to herbal medicinal plants.",
+          "Tree plantation drives.",
+          "Rain water Harvesting.",
+          "Public awareness for environmental protection."
         ]} />
 
         <ActivityCard title={<><i class="sii bi-houses-fill"></i>Rural Development</>} details={[
@@ -43,7 +46,8 @@ const Activities = () => {
         <ActivityCard title={<><i class="si bi-graph-up"></i>Livelihood & Skill Development</>} details={[
           "Income generation schemes.",
           "Vocational training & skill development.",
-          "Women empowerment."
+          "Women empowerment.",
+          "Day care Senior citizen services"
         ]} />
 
         <ActivityCard title={<><i class="sii bi-person-raised-hand"></i>Welfare Programs</>} details={[
