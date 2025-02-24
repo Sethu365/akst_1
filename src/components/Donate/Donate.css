@@ -1,5 +1,6 @@
 
 .donate-now-container {
+    margin-top: 20px;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -12,15 +13,12 @@
 
 .qr-code-container img {
     width: 500px;
+    margin:20px auto;
+    display: inline-block;
     height: 500px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* .support{
-    font-size: 2.8rem;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  } */
+.donate-now-container h1 {
+    padding-top: 10px;
+}

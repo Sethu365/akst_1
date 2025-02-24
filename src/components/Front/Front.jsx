@@ -1,7 +1,7 @@
 import React from 'react';
 import './Front.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { Link } from 'react-scroll'; 
+import { Link } from "react-router-dom";   
 
 const Front = () => {
   return (
@@ -16,10 +16,9 @@ const Front = () => {
           <button className='btn1'>
             <Link 
               to="/services" 
-              smooth={true} 
-              duration={500} 
-              className="btn-link"
-            >
+              smooth={true}
+              duration={500}
+              className="btn-link">
               Explore more <i className="bi bi-caret-right-fill"></i>
             </Link>
           </button>
@@ -30,13 +29,12 @@ const Front = () => {
  <div className="additional-content">
   <div className="text-container">
     <h4>
-      <strong>Asha Kirana Seva Trust (AKST)</strong> works to uplift marginalized communities by providing education, healthcare, and skill development, empowering women,
-      children, and the elderly to create sustainable, positive change in their lives.
+      <strong>Asha Kirana Seva Trust (AKST)</strong>is dedicated to empowering marginalized communities through education, healthcare, and skill development, with a focus on uplifting women, children, and the elderly  to create sustainable, positive change in their lives.
 
     </h4>
     <p>
     In Bangalore, where a large population lives in slums and faces numerous challenges, the trust works to improve the lives of underprivileged children and families
-    by offering education, healthcare, and skill development, empowering them to break free from poverty and build a sustainable future.
+    by offering quality education, healthcare and nutrition, water ans sanitation, thereby empowering them to break free from poverty and build a sustainable future.
     </p>
   </div>
   <button className="btn1">
@@ -50,9 +48,7 @@ const Front = () => {
     </Link>
   </button>
 </div>
-
-
-    </>
+  </>
   );
 }
 

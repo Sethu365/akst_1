@@ -24,8 +24,8 @@ const Programs = () => {
               "Support for poor children’s education",
               "Special coaching classes for weak students",
               "Literacy awareness programs",
-              "Computer education for youth, housewives, and schoolchildren",
-              "Crèche centers for working mothers"
+              "Crèche centers for working mothers",
+              "Digital Literacy"
             ]}
           />
 
@@ -37,7 +37,8 @@ const Programs = () => {
               "Health check-ups for children",
               "Medical services in urban/rural slums",
               "Day care centers for senior citizens",
-              "Nutrition programs for children"
+              "Nutrition programs for children",
+
             ]}
           />
 
@@ -48,7 +49,8 @@ const Programs = () => {
               "Women empowerment training programs",
               "Vocational training (Beautician, Fashion Design, etc.)",
               "Family counselling services",
-              "Awareness programs for women"
+              "Awareness programs for women",
+              "Tailoring coaching"
             ]}
           />
 
@@ -59,7 +61,8 @@ const Programs = () => {
               "Awareness on new agricultural methods, equipment, and organic farming",
               "Support for poor farmers, including seeds and organic supply",
               "Safe drinking water & rainwater harvesting programs",
-              "Environmental awareness and sanitation"
+              "Environmental awareness and sanitation",
+              "Tree Plantation"
             ]}
           />
 
@@ -69,13 +72,12 @@ const Programs = () => {
             details={[
               "Community developmental programs",
               "Legal awareness programs",
-              "Disabled welfare for multi-category children",
-              "Senior citizen care and support"
+              "Support for Disabled welfare for multi-category school children",
+              "Daycare services for Senior citizen",
+              "Vishwakarma program"
             ]}
           />
         </section>
-
-        <Facilities />
         <SupportRequest />
       </div>
     </section>
@@ -94,24 +96,11 @@ const ProgramCard = ({ icon, title, details }) => (
   </div>
 );
 
-const Facilities = () => (
-  <section className="facilities">
-    <h2 className="facilities-title">Our Facilities</h2>
-    <ul className="facilities-list">
-      <li>Single, double, and triple occupancy rooms</li>
-      <li>Attached toilets and furnished accommodation</li>
-      <li>Vegetarian food and solar water heaters</li>
-      <li>Dormitory, library, recreation room, and visitors room</li>
-      <li>Dining room, kitchen, laundry, pooja room, and open courtyard</li>
-    </ul>
-  </section>
-);
-
 const SupportRequest = () => (
   <section className="support-request">
-    <h2 className="support-title">Required Support for Old Age & Orphanage</h2>
+    <h2 className="support-title">Required Support for Old Age & poor children</h2>
     <p className="support-text">
-      We request support from kind-hearted individuals to help us provide shelter, food, and hospitality to those in need, including our elderly residents. Your donations help us maintain and grow our efforts to uplift the most vulnerable members of our society.
+      We require support from kind-hearted individuals to help us provide shelter, food, and hospitality to those in need, including our elderly residents. Your donations help us maintain and grow our efforts to uplift the most vulnerable members of our society.
     </p>
   </section>
 );
